@@ -1,0 +1,34 @@
+{
+  "name": "@tphone-beta/cli",
+  "version": "1.0.3",
+  "description": "one @tphone/cli to create a yjpl template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tphone",
+    "cli"
+  ],
+  "author": "hanzhimin@ygsoft.com",
+  "license": "ISC",
+  "bin": {
+    "tphone": "bin/index.js"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/harby9/tphone-cli-template"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1",
+    "validate-npm-package-name": "^5.0.0"
+  }
+}
